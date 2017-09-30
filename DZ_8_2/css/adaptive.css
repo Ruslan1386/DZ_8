@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+	header {
+	width: 100%;
+	max-width: 768px;
+}
+
+main {
+	width: 100%;
+	max-width: 768px;
+}
+
+#walk {
+	width: 100%;
+	max-width: 768px;
+	margin-left: 5px;
+}
+#walk p {
+	width: 100%;
+	max-width: 758px;
+}
+#walk img {
+	display: block;
+	margin: auto;
+}
+
+#drive {
+	width: 100%;
+	max-width: 758px;
+	float: none;
+	clear: none;
+}
+#question {
+	width: 100%;
+	max-width: 768px;
+	display: inline-block;
+	float: none;
+}
+}
+
+@media (max-width: 320px) {
+	header {	
+	max-width: 320px;
+}
+
+main {	
+	max-width: 320px;
+}
+
+#walk {	
+	max-width: 320px;
+	margin-left: 5px;
+}
+#walk p {	
+	max-width: 310px;
+}
+#walk img {
+	width: 310px;
+	height: auto;
+}
+
+#drive {	
+	max-width: 320px;	
+}
+#question {	
+	max-width: 320px;	
+}
+}
