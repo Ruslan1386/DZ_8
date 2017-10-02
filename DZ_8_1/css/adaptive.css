@@ -2,6 +2,12 @@
 	main {
 		display: block;
 	}
+
+	h1, p, h2 {
+		width: 100%;
+		max-width: 955px;
+		margin: 0 5px 0 5px;
+	}
 	
 	.city {
 		width: 100%;
@@ -16,6 +22,18 @@
 }
 
 @media (max-width: 768px) {
+	header {
+		width: 100%;
+		max-width: 763px;
+	}
+	footer {
+		width: 100%;
+		max-width: 763px;
+	}
+	h1, p, h2 {
+		width: 100%;
+		max-width: 743px;		
+	}
 	.wrapper {
 		width: 100%;
 		max-width: 768px;
@@ -30,21 +48,51 @@
 	}
 }
 
-@media (max-width: 568px) {
+@media (max-width: 600px) {
 	header {
 		width: 100%;
-		max-width: 568px;
+		max-width: 595px;
 	}
 	footer {
 		width: 100%;
-		max-width: 568px;
+		max-width: 595px;
+	}
+	h1, p, h2 {
+		width: 100%;
+		max-width: 580px;		
+	}
+	.wrapper {
+		width: 100%;
+		max-width: 600px;
+	}
+	.city {
+		max-width: 580px;
+		margin: 0 auto;		
+	}
+	img {
+		width: 100%;
+		max-width: 275px;
+	}
+}
+@media (max-width: 568px) {
+	header {
+		width: 100%;
+		max-width: 563px;
+	}
+	footer {
+		width: 100%;
+		max-width: 563px;
+	}
+	h1, p, h2 {
+		width: 100%;
+		max-width: 543px;		
 	}
 	.wrapper {
 		width: 100%;
 		max-width: 568px;
 	}
 	.city {
-		max-width: 568px;
+		max-width: 563px;
 	}
 	img {
 		width: 100%;
@@ -55,18 +103,23 @@
 @media (max-width: 320px) {
 	header {
 		width: 100%;
-		max-width: 320px;
+		max-width: 315px;
+	}
+	h1, p, h2 {
+		width: 100%;
+		max-width: 300px;		
 	}
 	footer {
 		width: 100%;
-		max-width: 320px;
+		max-width: 315px;
 	}
 	.wrapper {
 		width: 100%;
-		max-width: 320px;
+		max-width: 315px;
 	}
 	.city {
-		max-width: 320px;			
+		width: 100%;
+		max-width: 315px;			
 	}
 	img {
 		width: 100%;
