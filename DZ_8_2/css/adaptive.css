@@ -1,3 +1,15 @@
+@media (max-width: 1024px) {
+	header {
+		width: 100%;
+		max-width: 1024px;
+	}
+
+	main {
+		width: 100%;
+		max-width: 1024px;
+	}
+}
+
 @media (max-width: 768px) {
 	header {
 		width: 100%;
@@ -32,6 +44,44 @@
 	#question {
 		width: 100%;
 		max-width: 768px;
+		display: inline-block;
+		float: none;
+	}
+}
+@media (max-width: 568px) {
+	header {
+		width: 100%;
+		max-width: 568px;
+	}
+
+	main {
+		width: 100%;
+		max-width: 568px;
+	}
+
+	#walk {
+		width: 100%;
+		max-width: 563px;
+		padding-left: 5px;
+	}
+	#walk p {
+		width: 100%;
+		max-width: 548px;
+	}
+	#walk img {
+		display: block;
+		margin: auto;
+	}
+
+	#drive {
+		width: 100%;
+		max-width: 548px;
+		float: none;
+		clear: none;
+	}
+	#question {
+		width: 100%;
+		max-width: 568px;
 		display: inline-block;
 		float: none;
 	}
